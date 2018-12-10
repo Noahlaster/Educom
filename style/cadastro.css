@@ -1,3 +1,7 @@
+body{
+    background-image: url("/img/Background.jpg");
+}
+
 header{
 
         background-color: #4F5B93;
@@ -24,3 +28,4 @@ a:link{
 a:visited{
     color: aliceblue;
 }
+
