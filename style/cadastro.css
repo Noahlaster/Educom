@@ -1,0 +1,26 @@
+header{
+
+        background-color: #4F5B93;
+        margin: -8px;
+
+        border-bottom: solid #8892BF 5px;
+
+}
+
+nav{
+
+    font-family: "Segoe UI";
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+a:link{
+
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:visited{
+    color: aliceblue;
+}
