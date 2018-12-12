@@ -1,0 +1,126 @@
+body{
+    background-image: url("/img/Background.jpg");
+    background-attachment: scroll;
+}
+header{
+    background-color: #4F5B93;
+    margin: -8px;
+    border-bottom: solid #8892BF 5px;
+}
+nav{
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: aliceblue;
+    position: relative;
+    left: 10px;
+}
+a{
+    position: relative;
+    left: 10px;
+    bottom: 27px;
+    padding-bottom: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: aliceblue;
+}
+
+a:hover{
+    background-color: #8892BF;
+    color: aliceblue;
+
+    border-left: solid 2px #363b96;
+    border-top: solid 2px #363b96;
+    border-right: solid 2px #363b96;
+}
+
+a:active{
+    text-decoration: none;
+}
+section{
+    background-color: aliceblue;
+    font-family: Calibri;
+    margin-top: 8px;
+    margin-left: 170px;
+    width: 1000px;
+    height: 500px;
+}
+form{
+    margin-left: 350px;
+}
+.formnav{
+    margin-left: 0px;
+}
+div{
+    padding-top: 200px;
+}
+.divnav{
+    padding: 0px 0px 0px 0px;
+    height: 0px;
+}
+footer{
+    font-family: Calibri;
+    color: grey;
+}
+button{
+    height: 50px;
+    width: 120px;
+    position: relative;
+    top: 200px;
+    left: -290px;
+
+    margin-left: 200px;
+
+    font-weight: bold;
+    background-color: #4F5B93;
+    border: none;
+    color: aliceblue;
+
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px #363b96;
+
+}
+button:hover{
+    background-color: #8892BF;
+}
+
+button:active{
+    background-color: #4F5B93;
+    box-shadow: 0px 5px #4F5B93;
+    transform: translateY(6px);
+}
+input{
+    position: relative;
+    left: 190px;
+    bottom: 55px;
+
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #4F5B93;
+    border: none;
+}
+input:hover{
+    background-color: #8892BF;
+
+    border-left: solid 2px #363b96;
+    border-top: solid 2px #363b96;
+    border-right: solid 2px #363b96;
+
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    cursor: pointer;
+}

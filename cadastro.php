@@ -9,8 +9,8 @@
         <header>
             <nav>
                 <img src="img/logo.png">
-                <a href="cadastro.php">Novo Cadastro</a>
-                <a href="cadastrados.php">Pessoas Cadastrados</a>
+                <a href="home.php">Início</a>
+                <a class="sair" href="index.php">Sair</a>
             </nav>
         </header>
         <section>

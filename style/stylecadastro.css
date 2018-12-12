@@ -74,12 +74,6 @@ div{
 form{
     margin-left: 50px;
 }
-
-/*label{
-    margin-left: 370px;
-    font-size: 20px;
-    font-weight: bold;
-}*/
 label{
     display: inline-block;
     width: 80px;
@@ -104,6 +98,7 @@ input,select{
     width: 120px;
     border-style: ridge;
 }
+
 
 
 

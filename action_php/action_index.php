@@ -16,9 +16,12 @@
         $password = $res2[0];
     }
 
+    if (($user == $usuario)&&($password == $senha)){
 
-    if (($usuario == $user)&&($senha == $password)){
-        echo "<script>javascript:window.location='/cadastro.php';</script>";
+        echo "<script>javascript:window.location='/home.php';</script>";
+
+        $sql3 = "UPDATE login SET confirmacao='1';";
+        mysqli_query($conn, $sql3);
     }
     else{
         echo "<script>alert('LOGIN INCORRETO !');javascript:window.location='/index.php';</script>";
