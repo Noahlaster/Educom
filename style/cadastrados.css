@@ -1,6 +1,8 @@
 body{
     background-image: url("/img/Background.jpg");
+    background-repeat: no-repeat;
 }
+
 header{
 
     background-color: #4F5B93;
@@ -14,15 +16,10 @@ nav{
 
     font-family: "Segoe UI";
     font-size: 20px;
-    color: aliceblue;
-
-    position: relative;
-    left: 10px;
-
+    padding-left: 10px;
 }
 
 a{
-
     position: relative;
     left: 10px;
     bottom: 27px;
@@ -35,19 +32,12 @@ a{
     text-align: center;
 
     color: aliceblue;
-
 }
 
 a:link{
 
-    text-decoration: none;
-
-}
-
-a:visited{
-
     color: aliceblue;
-
+    text-decoration: none;
 }
 
 a:hover{
@@ -59,33 +49,66 @@ a:hover{
     border-right: solid 2px #363b96;
 }
 
-a:active{
-    text-decoration: none;
+a:visited{
+    color: aliceblue;
 }
 
-section{
+section {
     background-color: aliceblue;
-    font-family: Calibri;
     margin-top: 8px;
     margin-left: 170px;
     width: 1000px;
-    height: 500px;
-}
-form{
-    margin-left: 350px;
-}
-div{
-    padding-top: 200px;
-}
-label{
-    font-family: Calibri;
-    display: inline-block;
-    width: 80px;
+    height: 700px;
+
+
 }
 
 footer{
     font-family: Calibri;
     color: grey;
 }
+
+div{
+    font-family: Calibri;
+}
+form{
+    margin-left: 50px;
+}
+
+/*label{
+    margin-left: 370px;
+    font-size: 20px;
+    font-weight: bold;
+}*/
+label{
+    display: inline-block;
+    width: 80px;
+
+}
+input,select{
+    border-radius: 6px;
+    height: 20px;
+
+}
+.titulo{
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-left: 370px;
+    width: 100%;
+}
+.botao{
+    margin-left: 210px;
+    height: 25px;
+    width: 120px;
+    border-style: ridge;
+}
+table{
+    font-family: Calibri;
+    color: #4F5B93;
+    text-align: center;
+}
+
 
 
