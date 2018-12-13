@@ -1,15 +1,11 @@
 body{
     background-image: url("/img/Background.jpg");
-    background-repeat: no-repeat;
 }
 
 header{
-
-    background-color: #4F5B93;
+    background-color: #3b68cf;
     margin: -8px;
-
-    border-bottom: solid #8892BF 5px;
-
+    border-bottom: solid #3b8bcf 5px;
 }
 
 nav{
@@ -41,7 +37,7 @@ a:link{
 }
 
 a:hover{
-    background-color: #8892BF;
+    background-color: #3b8bcf;
     color: aliceblue;
 
     border-left: solid 2px #363b96;
@@ -56,10 +52,9 @@ a:visited{
 section {
     background-color: aliceblue;
     margin-top: 8px;
-    margin-left: 170px;
-    width: 1000px;
-    height: 700px;
-
+    margin-left: 32px;
+    width: 1290px;
+    height: 520px;
 
 }
 
@@ -71,10 +66,16 @@ footer{
 div{
     font-family: Calibri;
 }
+.divnav{
+    padding: 0px 0px 0px 0px;
+    height: 0px;
+}
 form{
     margin-left: 50px;
 }
-
+.formnav{
+    margin-left: 0px;
+}
 /*label{
     margin-left: 370px;
     font-size: 20px;
@@ -85,9 +86,18 @@ label{
     width: 80px;
 
 }
-input,select{
-    border-radius: 6px;
-    height: 20px;
+input{
+    position: relative;
+    left: 360px;
+    bottom: 55px;
+
+    height: 30px;
+
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #3b68cf;
+    border: none;
 
 }
 .titulo{
@@ -105,10 +115,86 @@ input,select{
     border-style: ridge;
 }
 table{
+    position: relative;
+    left: 0px;
+    top: 30px;
     font-family: Calibri;
-    color: #4F5B93;
-    text-align: center;
+    color: black;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #666;
+    width: 80em;
+    border: none;
+
+
 }
+thead {
+    background: #ccc url("/img/barra.gif") repeat-x left center;
+    border-top: 1px solid #a5a5a5;
+    border-bottom: 1px solid #a5a5a5;
+
+}
+thead tr:hover {
+    background-color: transparent;
+    color: inherit;
+}
+tr:hover{
+    background-color: #3d80df;
+    color: aliceblue;
+}
+
+th {
+    color: black;
+    font-weight: inherit;
+    text-align: left;
+}
+th, td {
+    padding: 0.1em 1em;
+}
+/*.input{
+    position: relative;
+    left: 360px;
+    bottom: 55px;
+
+    height: 30px;
+
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #3b68cf;
+    border: none;
+}*/
+input:hover{
+    background-color: #3b8bcf;
+
+    border-left: solid 2px #363b96;
+    border-top: solid 2px #363b96;
+    border-right: solid 2px #363b96;
+    border-radius: 0px;
+    padding-bottom: 52px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    cursor: pointer;
+}
+.divtable{
+    overflow-x: auto;
+    overflow-y: auto;
+
+    height: 500px;
+
+}
+.paragraph{
+    font-family: "Segoe UI";
+    font-weight: bold;
+
+    position: relative;
+    left: 30px;
+    top: 15px;
+
+    margin-right: 80px;
+}
+
 
 
 

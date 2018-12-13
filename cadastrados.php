@@ -2,35 +2,42 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Clientes Cadstrados</title>
+        <link rel="icon" href="img/icon.png">
+        <title>Pacientes</title>
         <link rel="stylesheet" type="text/css" href="style/cadastrados.css">
+        <link href="main.css?version=12" />
     </head>
     <body>
     <header>
         <nav>
-            <img src="img/logo.png">
+            <img src="img/logo1.png">
             <a href="home.php">Início</a>
-            <a class="sair" href="index.php">Sair</a>
+            <div class="divnav">
+                <form class="fornav" method="post" action="action_php/action_home.php">
+                    <input class="input" type="submit" value="Sair" name="sair">
+                </form>
+            </div>
         </nav>
     </header>
     <section>
-
-        <br>
-
+        <div class="divtable">
+            <p class="paragraph">Registro de Pacientes</p>
         <table border="1" align="center" cellspacing="0"cellpadding="3">
-                <tr align="center">
-                    <th>ID</th>
-                    <th>NOME</th>
-                    <th>SEXO</th>
-                    <th>IDADE</th>
+            <thead>
+            <tr align="center">
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Sexo</th>
+                    <th>Idade</th>
                     <th>CPF</th>
-                    <th>TELEFONE</th>
-                    <th>CELULAR</th>
+                    <th>Telefone</th>
+                    <th>Celular</th>
                     <th>CEP</th>
-                    <th>BAIRRO</th>
-                    <th>MUNICIPIO</th>
-                    <th>ENDERECO</th>
+                    <th>Bairro</th>
+                    <th>Municipio</th>
+                    <th>Endereço</th>
                 </tr>
+            </thead>
 
         <?php
         include 'action_php/conexao.inc';
@@ -53,7 +60,8 @@
             $municipio = $res[9];
             $endereco = $res[10];
 
-            echo "<td>$id</td><td>$nome</td><td>$sexo</td><td>$idade</td><td>$cpf</td><td>$telefone</td><td>$celular</td><td>$cep</td><td>$bairro</td><td>$municipio</td><td>$endereco</td><tr></tr>";
+
+            echo "<tr><td>$id</td><td>$nome</td><td>$sexo</td><td>$idade</td><td>$cpf</td><td>$telefone</td><td>$celular</td><td>$cep</td><td>$bairro</td><td>$municipio</td><td>$endereco</td></tr>";
 
 
         }
@@ -61,7 +69,8 @@
         mysqli_close($conn);
 
         ?>
-        </table>
+            </table>
+        </div>
     </section>
     <footer>
         <p>Create by Jhonnata Novaes</p>

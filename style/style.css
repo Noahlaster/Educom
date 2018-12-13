@@ -3,22 +3,18 @@ body{
 }
 header{
 
-    background-color: #4F5B93;
+    background-color: #3b68cf;
     margin: -8px;
-
-    border-bottom: solid #8892BF 5px;
+    border-bottom: solid #3b8bcf 5px;
 
 }
 
 nav{
-
     font-family: "Segoe UI";
     font-size: 20px;
     color: aliceblue;
-
     position: relative;
     left: 10px;
-
 }
 
 a{

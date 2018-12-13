@@ -5,10 +5,10 @@ body{
 
 header{
 
-    background-color: #4F5B93;
+    background-color: #3b68cf;
     margin: -8px;
 
-    border-bottom: solid #8892BF 5px;
+    border-bottom: solid #3b8bcf 5px;
 
 }
 
@@ -41,7 +41,7 @@ a:link{
 }
 
 a:hover{
-    background-color: #8892BF;
+    background-color: #3b8bcf;
     color: aliceblue;
 
     border-left: solid 2px #363b96;
@@ -71,8 +71,15 @@ footer{
 div{
     font-family: Calibri;
 }
+.divnav{
+    padding: 0px 0px 0px 0px;
+    height: 0px;
+}
 form{
     margin-left: 50px;
+}
+.formnav{
+    margin-left: 0px;
 }
 label{
     display: inline-block;
@@ -80,7 +87,6 @@ label{
 
 }
 input,select{
-    border-radius: 6px;
     height: 20px;
 
 }
@@ -98,6 +104,35 @@ input,select{
     width: 120px;
     border-style: ridge;
 }
+.input{
+    position: relative;
+    left: 360px;
+    bottom: 55px;
+
+    height: 30px;
+
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #3b68cf;
+    border: none;
+}
+.input:hover{
+    background-color: #3b8bcf;
+
+    border-left: solid 2px #363b96;
+    border-top: solid 2px #363b96;
+    border-right: solid 2px #363b96;
+
+    border-radius: 0px;
+
+    padding-bottom: 52px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    cursor: pointer;
+}
+
 
 
 

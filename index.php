@@ -2,14 +2,14 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Plataforma</title>
-        <!--<link rel="icon" href="img/ico.png">-->
+        <title>Educom</title>
+        <link rel="icon" href="img/icon.png">
         <link rel="stylesheet" type="text/css" href="style/style.css">
     </head>
     <body>
         <header>
             <nav>
-               <img src="img/logo.png">
+               <img src="img/logo1.png">
             </nav>
         </header>
         <section>
@@ -18,7 +18,7 @@
                     <label>Usuário:</label><input type="text" name="usuario">
                     <br>
                     <br>
-                    <label>Senha:</label><input type="text" name="senha">
+                    <label>Senha:</label><input type="password" name="senha">
                     <br>
                     <br>
                     <input type="submit" value="Logar">

@@ -12,12 +12,22 @@
     $endereco = $_POST["endereco"];
 
 
-
     include "conexao.inc";
 
-    $sql = "INSERT INTO tb_cadastro (nome, sexo, idade, cpf, telefone, celular, cep, bairro, municipio, endereco) VALUES ('$nome', '$sexo','$idade', '$cpf', '$telefone', '$celular', '$cep', '$bairro', '$municipio', '$endereco')";
+    $sql2 = "SELECT confirmacao FROM login;";
+    $query2 = mysqli_query($conn, $sql2);
 
-    $query = mysqli_query($conn, $sql);
+    while($res = mysqli_fetch_row($query2)){
+        $confirmacao = $res[0];
+    }
+    if($confirmacao != '1'){
+        mysqli_error($conn);
+        echo "<script>alert('USUÁRIO NÃO ESTÁ LOGADO, EFETUE O LOGIN NOVAMENTE !');javascript:window.location='/index.php';</script>";
+    }
+    else {
+        $sql = "INSERT INTO tb_cadastro (nome, sexo, idade, cpf, telefone, celular, cep, bairro, municipio, endereco) VALUES ('$nome', '$sexo','$idade', '$cpf', '$telefone', '$celular', '$cep', '$bairro', '$municipio', '$endereco')";
+        $query = mysqli_query($conn, $sql);
+    }
 
     mysqli_close($conn);
 

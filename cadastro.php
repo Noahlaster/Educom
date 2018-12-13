@@ -2,15 +2,20 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <link rel="icon" href="img/icon.png">
         <title>Cadastro</title>
         <link rel="stylesheet" type="text/css" href="style/stylecadastro.css">
     </head>
     <body>
         <header>
             <nav>
-                <img src="img/logo.png">
+                <img src="img/logo1.png">
                 <a href="home.php">Início</a>
-                <a class="sair" href="index.php">Sair</a>
+                <div class="divnav">
+                    <form class="fornav" method="post" action="action_php/action_home.php">
+                        <input class="input" type="submit" value="Sair" name="sair">
+                    </form>
+                </div>
             </nav>
         </header>
         <section>
@@ -27,7 +32,7 @@
                         <label>Nome:</label><input type="text" name="nome" maxlength="40" size="30">
                     <br>
                     <br>
-                        <label>Sexo:</label><select name="sexo" size="1"><option>Masculino</option><option>Feminino</option></select>
+                        <label>Sexo:</label><select name="sexo" size="1"><option></option><option>Masculino</option><option>Feminino</option></select>
                     <br>
                     <br>
                         <label>Idade:</label><input type="text" name="idade" maxlength="3" size="3">
