@@ -11,6 +11,22 @@
     $municipio = $_POST["municipio"];
     $endereco = $_POST["endereco"];
 
+    $doenca = $_POST["doenca"];
+    $medicamento = $_POST["medicamento"];
+    $sintoma = $_POST["sintoma"];
+    $acompanhamento = $_POST["acompanhamento"];
+    $h_alimentar = $_POST["h_alimentar"];
+
+    $familia = $_POST["familia"];
+    $evento = $_POST["evento"];
+
+    $social = $_POST["social"];
+    $h_lazer = $_POST["h_lazer"];
+    $grupo = $_POST["grupo"];
+
+    $reprovacao = $_POST["reprovacao"];
+    $dificuldade = $_POST["dificuldade"];
+    $h_estudo = $_POST["h_estudo"];
 
     include "conexao.inc";
 
@@ -25,7 +41,7 @@
         echo "<script>alert('USUÁRIO NÃO ESTÁ LOGADO, EFETUE O LOGIN NOVAMENTE !');javascript:window.location='/index.php';</script>";
     }
     else {
-        $sql = "INSERT INTO tb_cadastro (nome, sexo, idade, cpf, telefone, celular, cep, bairro, municipio, endereco) VALUES ('$nome', '$sexo','$idade', '$cpf', '$telefone', '$celular', '$cep', '$bairro', '$municipio', '$endereco')";
+        $sql = "INSERT INTO tb_cadastro (nome, sexo, idade, cpf, telefone, celular, cep, bairro, municipio, endereco, doenca, medicamento, sintoma, acompanhamento, h_alimentar, familia, evento, social, h_lazer, grupo, reprovacao, dificuldade, h_estudo) VALUES ('$nome', '$sexo','$idade', '$cpf', '$telefone', '$celular', '$cep', '$bairro', '$municipio', '$endereco', '$doenca', '$medicamento', '$sintoma', '$acompanhamento', '$h_alimentar', '$familia', '$evento', '$social', '$h_lazer', '$grupo', '$reprovacao', '$dificuldade', '$h_estudo')";
         $query = mysqli_query($conn, $sql);
     }
 

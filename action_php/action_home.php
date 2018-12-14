@@ -5,6 +5,7 @@
     $novo = $_POST["novo"];
     $consultar = $_POST["consultar"];
     $sair = $_POST["sair"];
+    $registro = $_POST["registro"];
 
     $sql2 = "SELECT confirmacao FROM login;";
     $query2 = mysqli_query($conn, $sql2);
@@ -23,6 +24,9 @@
         }
         if(($consultar == 2)&&($confirmacao == '1')){
             header('Location: /cadastrados.php');
+        }
+        if(($registro == 3)&&($confirmacao == '1')){
+            header('Location: /informacoes_paciente.php');
         }
         if($sair == "Sair"){
             $sql1 = "UPDATE login SET confirmacao='0';";

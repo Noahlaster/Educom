@@ -21,11 +21,11 @@
     </header>
     <section>
         <div class="divtable">
-            <p class="paragraph">Registro de Pacientes</p>
+            <p class="paragraph">Registro de Paciente</p>
         <table border="1" align="center" cellspacing="0"cellpadding="3">
             <thead>
             <tr align="center">
-                    <th>Id</th>
+                    <th>ID</th>
                     <th>Nome</th>
                     <th>Sexo</th>
                     <th>Idade</th>

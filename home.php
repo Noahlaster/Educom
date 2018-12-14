@@ -23,7 +23,10 @@
         <section>
             <form method="post" action="action_php/action_home.php">
                 <button type="submit" name="novo" value="1">Novo Cadastro</button>
-                <button type="submit" name="consultar" value="2">Consultar</button>
+                <br>
+                <button type="submit" name="consultar" value="2">Pacientes Cadastrados</button>
+                <br>
+                <button type="submit" name="registro" value="3">Registros dos Pacientes</button>
             </form>
         </section>
         <footer>

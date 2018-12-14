@@ -1,6 +1,6 @@
 body{
     background-image: url("/img/Background.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 header{
@@ -58,7 +58,7 @@ section {
     margin-top: 8px;
     margin-left: 170px;
     width: 1000px;
-    height: 700px;
+    height: 2100px;
 
 
 }
@@ -82,8 +82,7 @@ form{
     margin-left: 0px;
 }
 label{
-    display: inline-block;
-    width: 80px;
+    display: block;
 
 }
 input,select{
@@ -95,14 +94,13 @@ input,select{
     font-size: 24px;
     font-weight: bold;
 
-    margin-left: 370px;
+    margin-left: 0px;
     width: 100%;
 }
 .botao{
-    margin-left: 210px;
+    margin-left: 360px;
     height: 25px;
     width: 120px;
-    border-style: ridge;
 }
 .input{
     position: relative;
@@ -132,6 +130,10 @@ input,select{
 
     cursor: pointer;
 }
+hr{
+    margin-right: 45px;
+}
+
 
 
 
