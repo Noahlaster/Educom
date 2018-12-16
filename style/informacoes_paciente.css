@@ -53,7 +53,7 @@ section {
     margin-top: 8px;
     margin-left: 170px;
     width: 1000px;
-    height: 2100px;
+    height: 1100px;
 }
 
 form{
@@ -76,7 +76,7 @@ footer{
 
 input{
     position: relative;
-    left: -280px;
+    left: 500px;
 
 }
 .input{
@@ -107,11 +107,6 @@ input{
 
     cursor: pointer;
 }
-
-
-hr{
-    margin-right: 45px;
-}
 label{
     position: relative;
     left: -290px;
@@ -120,11 +115,19 @@ label{
 .label{
     font-family: "Segoe UI";
     font-weight: bold;
-
-    position: relative;
-    left: -290px;
-    top: 40px;
-
     margin-right: 80px;
+}
+.titulo{
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-left: 0px;
+    width: 100%;
+}
+hr{
+    position: relative;
+    right: 300px;
+    width: 900px;
 }
 

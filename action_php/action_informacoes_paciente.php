@@ -24,32 +24,32 @@
 
         while ($res1 = mysqli_fetch_row($query)) {
             $nome = $res1[1];
-            $sexo = $_res1[2];
-            $idade = $_res1[3];
-            $cpf = $_res1[4];
-            $telefone = $_res1[5];
-            $celular = $_res1[6];
-            $cep = $_res1[7];
-            $bairro = $_res1[8];
-            $municipio = $_res1[9];
-            $endereco = $_res1[10];
+            $sexo = $res1[2];
+            $idade = $res1[3];
+            $cpf = $res1[4];
+            $telefone = $res1[5];
+            $celular = $res1[6];
+            $cep = $res1[7];
+            $bairro = $res1[8];
+            $municipio = $res1[9];
+            $endereco = $res1[10];
 
-            $doenca = $_res1[11];
-            $medicamento = $_res1[12];
-            $sintoma = $_res1[13];
-            $acompanhamento = $_res1[14];
-            $h_alimentar = $_res1[15];
+            $doenca = $res1[11];
+            $medicamento = $res1[12];
+            $sintoma = $res1[13];
+            $acompanhamento = $res1[14];
+            $h_alimentar = $res1[15];
 
-            $familia = $_res1[16];
-            $evento = $_res1[17];
+            $familia = $res1[16];
+            $evento = $res1[17];
 
-            $social = $_res1[18];
-            $h_lazer = $_res1[19];
-            $grupo = $_res1[20];
+            $social = $res1[18];
+            $h_lazer = $res1[19];
+            $grupo = $res1[20];
 
-            $reprovacao = $_res1[21];
-            $dificuldade = $_res1[22];
-            $h_estudo = $_res1[23];
+            $reprovacao = $res1[21];
+            $dificuldade = $res1[22];
+            $h_estudo = $res1[23];
         }
 
         $_SESSION['nome'] = $nome;
