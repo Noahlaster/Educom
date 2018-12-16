@@ -25,9 +25,7 @@
         if(($consultar == 2)&&($confirmacao == '1')){
             header('Location: /cadastrados.php');
         }
-        if(($registro == 3)&&($confirmacao == '1')){
-            header('Location: /informacoes_paciente.php');
-        }
+
         if($sair == "Sair"){
             $sql1 = "UPDATE login SET confirmacao='0';";
             mysqli_query($conn, $sql1);

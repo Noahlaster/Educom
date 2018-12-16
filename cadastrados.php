@@ -14,7 +14,7 @@
             <a href="home.php">Início</a>
             <div class="divnav">
                 <form class="fornav" method="post" action="action_php/action_home.php">
-                    <input class="input" type="submit" value="Sair" name="sair">
+                    <input class="input1" type="submit" value="Sair" name="sair">
                 </form>
             </div>
         </nav>
@@ -22,6 +22,9 @@
     <section>
         <div class="divtable">
             <p class="paragraph">Registro de Paciente</p>
+            <form method="post" action="action_php/action_informacoes_paciente.php">
+                <p class="paragraph" style="margin-left: -50px">ID:<input class="input2" type="text" size="4" name="pesquisa"><input type="submit" value="Pesquisar"</p>
+            </form>
         <table border="1" align="center" cellspacing="0"cellpadding="3">
             <thead>
             <tr align="center">
