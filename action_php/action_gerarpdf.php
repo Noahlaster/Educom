@@ -1,53 +1,44 @@
 <?php
 
-ob_start();
-
-include_once ("<h1>vai saber</h1>");
-
-$html = ob_get_contents();
-
-ob_end_clean();
-
-    require_once "dompdf/autoload.inc.php";
+    require_once "C:\wamp64\www\pageinphp\dompdf\autoload.inc.php";
     use  Dompdf\Dompdf;
 
+    session_start();
 
-/*session_start();
+    $nome = $_SESSION['nome'];
+    $sexo = $_SESSION["sexo"];
+    $idade = $_SESSION["idade"];
+    $cpf = $_SESSION["cpf"];
+    $telefone = $_SESSION["telefone"];
+    $celular = $_SESSION["celular"];
+    $cep = $_SESSION["cep"];
+    $bairro = $_SESSION["bairro"];
+    $municipio = $_SESSION["municipio"];
+    $endereco = $_SESSION["endereco"];
 
-$nome = $_SESSION['nome'];
-$sexo = $_SESSION["sexo"];
-$idade = $_SESSION["idade"];
-$cpf = $_SESSION["cpf"];
-$telefone = $_SESSION["telefone"];
-$celular = $_SESSION["celular"];
-$cep = $_SESSION["cep"];
-$bairro = $_SESSION["bairro"];
-$municipio = $_SESSION["municipio"];
-$endereco = $_SESSION["endereco"];
+    $doenca = $_SESSION["doenca"];
+    $medicamento = $_SESSION["medicamento"];
+    $sintoma = $_SESSION["sintoma"];
+    $acompanhamento = $_SESSION["acompanhamento"];
+    $h_alimentar = $_SESSION["h_alimentar"];
 
-$doenca = $_SESSION["doenca"];
-$medicamento = $_SESSION["medicamento"];
-$sintoma = $_SESSION["sintoma"];
-$acompanhamento = $_SESSION["acompanhamento"];
-$h_alimentar = $_SESSION["h_alimentar"];
+    $familia = $_SESSION["familia"];
+    $evento = $_SESSION["evento"];
 
-$familia = $_SESSION["familia"];
-$evento = $_SESSION["evento"];
+    $social = $_SESSION["social"];
+    $h_lazer = $_SESSION["h_lazer"];
+    $grupo = $_SESSION["grupo"];
 
-$social = $_SESSION["social"];
-$h_lazer = $_SESSION["h_lazer"];
-$grupo = $_SESSION["grupo"];
-
-$reprovacao = $_SESSION["reprovacao"];
-$dificuldade = $_SESSION["dificuldade"];
-$h_estudo = $_SESSION["h_estudo"];
+    $reprovacao = $_SESSION["reprovacao"];
+    $dificuldade = $_SESSION["dificuldade"];
+    $h_estudo = $_SESSION["h_estudo"];
 
 $html = "<html>
                 <body>
                 <label class=\"titulo\">Dados Pessoais</label>
                     <hr>
                     <br>
-                        <label><i>Nome:</i>$nome</label>
+                        <label><i>Nome:</i> $nome</label>
                         <br>
                         <label><i>Sexo:</i> $sexo</label>
                         <br>
@@ -109,7 +100,7 @@ $html = "<html>
                         <br>
                         <label><i>Hábitos de estudo:</i> $h_estudo</label>
                      </body>
-                 </html>";*/
+                 </html>";
 
 
 
@@ -119,7 +110,7 @@ $dompdf = new Dompdf();
 $dompdf->loadHtml($html);
 
 // (Optional) Setup the paper size and orientation
-$dompdf->setPaper('A4', 'landscape');
+$dompdf->setPaper('A4', 'portrait');
 
 // Render the HTML as PDF
 $dompdf->render();
@@ -127,9 +118,6 @@ $dompdf->render();
 $pdf = $dompdf->output();
 
 // Output the generated PDF to Browser
-$dompdf->stream();
-
-header('Content-type: application/pdf; charset=utf-8');
-echo $pdf;
+$dompdf->stream('Registro do Paciente.pdf');
 
 ?>

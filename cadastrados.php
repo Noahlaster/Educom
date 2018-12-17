@@ -21,9 +21,11 @@
     </header>
     <section>
         <div class="divtable">
-            <p class="paragraph">Registro de Paciente</p>
+            <p class="paragraph">Lista de Pacientes</p>
             <form method="post" action="action_php/action_informacoes_paciente.php">
-                <p class="paragraph" style="margin-left: -50px">ID:<input class="input2" type="text" size="4" name="pesquisa"><input type="submit" value="Pesquisar"</p>
+                <p class="paragraph" style="margin-left: -50px">ID:<input class="input2" type="text" size="4" name="pesquisa">
+                    <input class="input3" type="submit" value="Registro Completo" name="registro">
+                    <input type="submit" value="Excluir" name="exclui"></p>
             </form>
         <table border="1" align="center" cellspacing="0"cellpadding="3">
             <thead>

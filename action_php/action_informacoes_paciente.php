@@ -1,5 +1,7 @@
 <?php
     $pesquisa = $_POST["pesquisa"];
+    $exclui = $_POST['exclui'];
+    $registro = $_POST['registro'];
 
     session_start();
     include "conexao.inc";
@@ -9,6 +11,7 @@
 
     while($res = mysqli_fetch_row($query2)){
         $confirmacao = $res[0];
+        $quant = mysqli_affected_rows();
     }
     if($confirmacao != '1') {
         mysqli_error($conn);
@@ -17,7 +20,7 @@
     if($pesquisa == ""){
         echo "<script>alert('ERRO AO TENTAR LOCALIZAR PACIENTE, INFORME UM ID VÁLIDO.');javascript:window.location='/cadastrados.php';</script>";
     }
-    else {
+    if($registro == 'Registro Completo'){
 
         $sql = "SELECT * FROM tb_cadastro WHERE id='$pesquisa';";
         $query = mysqli_query($conn, $sql);
@@ -52,6 +55,8 @@
             $h_estudo = $res1[23];
         }
 
+        $_SESSION['registro'] = $pesquisa;
+
         $_SESSION['nome'] = $nome;
         $_SESSION['sexo'] = $sexo;
         $_SESSION['idade'] = $idade;
@@ -77,6 +82,15 @@
         $_SESSION['h_estudo'] = $h_estudo;
 
         header('Location: /informacoes_paciente.php');
+
+    }
+    if($exclui == "Excluir"){
+
+        $sql = "DELETE FROM tb_cadastro WHERE id = '$pesquisa';";
+        $query = mysqli_query($conn, $sql);
+
+
+        echo "<script>alert('Paciente deletado com sucesso !');javascript:window.location='/cadastrados.php'</script>";
 
     }
 

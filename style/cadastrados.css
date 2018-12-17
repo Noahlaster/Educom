@@ -76,11 +76,6 @@ form{
 .formnav{
     margin-left: 0px;
 }
-/*label{
-    margin-left: 370px;
-    font-size: 20px;
-    font-weight: bold;
-}*/
 label{
     display: inline-block;
     width: 80px;
@@ -183,6 +178,9 @@ th, td {
 }
 .input2{
     margin-left: 10px;
+    margin-right: 10px;
+}
+.input3{
     margin-right: 10px;
 }
 
