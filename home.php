@@ -26,6 +26,8 @@
                 <br>
                 <button type="submit" name="consultar" value="2">Pacientes Cadastrados</button>
                 <br>
+                <button type="submit" name="ficha" value="3">Fichas</button>
+                <br>
             </form>
         </section>
         <footer>

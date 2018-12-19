@@ -36,6 +36,27 @@
                         <label>Idade:</label><input type="text" name="idade" maxlength="3" size="3">
                     <br>
                     <br>
+                        <label>Data de nasc:</label><input type="text" name="nasc" maxlength="10" size="10">
+                    <br>
+                    <br>
+                    <label>Estado civil:</label><input type="text" name="e_civil" maxlength="10" size="10">
+                    <br>
+                    <br>
+                    <label>Filiação:</label><input type="text" name="filiacao" maxlength="100" size="40">
+                    <br>
+                    <br>
+                    <label>Escolaridade:</label><input type="text" name="escolaridade" maxlength="20" size="20">
+                    <br>
+                    <br>
+                    <label>Profissão:</label><input type="text" name="profissao" maxlength="20" size="20">
+                    <br>
+                    <br>
+                    <label>Renda Mensal:</label><input type="text" name="renda" maxlength="7" size="20">
+                    <br>
+                    <br>
+                    <label>Nº de dependentes:</label><input type="text" name="dependente" maxlength="3" size="5">
+                    <br>
+                    <br>
                         <label>CPF:</label><input type="text" name="cpf" maxlength="11" size="9">
                     <br>
                     <br>
@@ -61,6 +82,12 @@
                     <br>
                     <label class="titulo">Histórico Clínico</label>
                     <hr>
+                    <br>
+                    <label>Queixa inicial:</label><input type="text" name="q_inicial" maxlength="100" size="45">
+                    <br>
+                    <br>
+                    <label>Alteração comportamental:</label><input type="text" name="alteracao" maxlength="100" size="45">
+                    <br>
                     <br>
                     <label>Doenças:</label><input type="text" name="doenca" maxlength="100" size="45">
                     <br>
@@ -92,6 +119,9 @@
                     <br>
                     <label class="titulo">Histórico Social</label>
                     <hr>
+                    <br>
+                    <label>Personalidade:</label><input type="text" name="personalidade" maxlength="100" size="45">
+                    <br>
                     <br>
                     <label>Vida Social:</label><input type="text" name="social" maxlength="100" size="45">
                     <br>

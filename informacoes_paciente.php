@@ -58,6 +58,18 @@
         $dificuldade = $_SESSION["dificuldade"];
         $h_estudo = $_SESSION["h_estudo"];
 
+        $nasc = $_SESSION["nasc"];
+        $e_civil = $_SESSION["e_civil"];
+        $filiacao = $_SESSION["filiacao"];
+        $escolaridade = $_SESSION["escolaridade"];
+        $profissao = $_SESSION["profissao"];
+        $renda = $_SESSION["renda"];
+        $dependente = $_SESSION["dependente"];
+
+        $q_inicial = $_SESSION["q_inicial"];
+        $alteracao = $_SESSION["alteracao"];
+        $personalidade = $_SESSION["personalidade"];
+
         echo "<form name=\"formulario\" method=\"post\" action=\"action_php/action_cadastro.php\">
                 
                     <br>
@@ -65,11 +77,25 @@
                         <label class=\"titulo\">Dados Pessoais</label>
                     <hr>
                     <br>
-                        <label><i>Nome:</i>$nome</label>
+                        <label><i>Nome:</i> $nome</label>
                         <br>        
                         <label><i>Sexo:</i> $sexo</label>
                         <br>
                         <label><i>Idade:</i> $idade</label>
+                        <br>
+                        <label><i>Nascimento:</i> $nasc</label>
+                        <br>
+                        <label><i>Estado civil:</i> $e_civil</label>
+                        <br>
+                        <label><i>Filiação:</i> $filiacao</label>
+                        <br>
+                        <label><i>Escolaridade:</i> $escolaridade</label>
+                        <br>
+                        <label><i>Profissão:</i> $profissao</label>
+                        <br>
+                        <label><i>Renda:</i> $renda</label>
+                        <br>
+                        <label><i>Nº de dependentes:</i> $dependente</label>
                         <br>
                         <label><i>CPF:</i> $cpf</label>
                         <br>
@@ -89,6 +115,10 @@
                         <br>
                         <label class=\"titulo\">Histórico Clínico</label>
                         <hr>
+                        <label><i>Queixa inicial:</i> $q_inicial</label>
+                        <br>
+                        <label><i>Alteração comportamental:</i> $alteracao</label>
+                        <br>
                         <label><i>Doenças:</i> $doenca</label>
                         <br>
                         <label><i>Uso de medicamentos:</i> $medicamento</label>
@@ -111,6 +141,8 @@
                         <br>
                         <label class=\"titulo\">Histórico Social</label>
                         <hr>
+                        <label><i>Personalidade:</i> $personalidade</label>
+                        <br>
                         <label><i>Vida social:</i> $social</label>
                         <br>
                         <label><i>Hábitos de lazer:</i> $h_lazer</label>

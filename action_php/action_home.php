@@ -6,6 +6,7 @@
     $consultar = $_POST["consultar"];
     $sair = $_POST["sair"];
     $registro = $_POST["registro"];
+    $ficha = $_POST["ficha"];
 
     $sql2 = "SELECT confirmacao FROM login;";
     $query2 = mysqli_query($conn, $sql2);
@@ -24,6 +25,9 @@
         }
         if(($consultar == 2)&&($confirmacao == '1')){
             header('Location: /cadastrados.php');
+        }
+        if(($ficha == 3)&&($confirmacao == '1')){
+            header('Location: /ficha.php');
         }
 
         if($sair == "Sair"){
