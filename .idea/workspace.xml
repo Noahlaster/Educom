@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a5214ed-7422-4e68-804b-7353c22b5726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/action_php/action_atualizar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/action_php/action_paciente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atualiza_cadastro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Relatório de Avaliação Psicológica.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/amnese.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/triagem.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ficha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paciente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/ficha.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action_php/action_cadastro.php" beforeDir="false" afterPath="$PROJECT_DIR$/action_php/action_cadastro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action_php/action_gerarpdf.php" beforeDir="false" afterPath="$PROJECT_DIR$/action_php/action_gerarpdf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action_php/action_home.php" beforeDir="false" afterPath="$PROJECT_DIR$/action_php/action_home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action_php/action_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/action_php/action_index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action_php/action_informacoes_paciente.php" beforeDir="false" afterPath="$PROJECT_DIR$/action_php/action_informacoes_paciente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastrados.php" beforeDir="false" afterPath="$PROJECT_DIR$/cadastrados.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro.php" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/informacoes_paciente.php" beforeDir="false" afterPath="$PROJECT_DIR$/informacoes_paciente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/informacoes_paciente.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/informacoes_paciente.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/stylecadastro.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/stylecadastro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha.php" beforeDir="false" afterPath="$PROJECT_DIR$/ficha.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,17 +30,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cadastro.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,7 +70,6 @@
         <option value="$PROJECT_DIR$/action_php/action_gerarpdf.php" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/action_php/action_home.php" />
-        <option value="$PROJECT_DIR$/ficha.php" />
         <option value="$PROJECT_DIR$/action_php/action_index.php" />
         <option value="$PROJECT_DIR$/action_php/action_paciente.php" />
         <option value="$PROJECT_DIR$/paciente.php" />
@@ -106,6 +78,8 @@
         <option value="$PROJECT_DIR$/atualiza_cadastro.php" />
         <option value="$PROJECT_DIR$/action_php/action_atualizar.php" />
         <option value="$PROJECT_DIR$/action_php/action_cadastro.php" />
+        <option value="$PROJECT_DIR$/style/ficha.css" />
+        <option value="$PROJECT_DIR$/ficha.php" />
       </list>
     </option>
   </component>
@@ -125,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,7 +121,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,11 +192,12 @@
       <workItem from="1544960515441" duration="14134000" />
       <workItem from="1545063432159" duration="7654000" />
       <workItem from="1545214816239" duration="18973000" />
+      <workItem from="1545400012979" duration="3457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181524000" />
+    <option name="totallyTimeSpent" value="184981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +211,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20499243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20801815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -298,13 +273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -317,13 +285,6 @@
     <entry file="file://$PROJECT_DIR$/mpdf/README.md" />
     <entry file="file://$PROJECT_DIR$/mpdf/src/Exception/InvalidArgumentException.php" />
     <entry file="file://$PROJECT_DIR$/action_php/excluir_cadastro.php" />
-    <entry file="file://$PROJECT_DIR$/style/stylecadastro.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/informacoes_paciente.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -352,13 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ficha.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="120" selection-start-line="12" selection-start-column="120" selection-end-line="12" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/action_php/action_paciente.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
@@ -380,13 +334,6 @@
           <folding>
             <element signature="e#429#454#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/cadastrados.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -432,10 +379,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/cadastrados.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2691">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cadastro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="160">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/stylecadastro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/ficha.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ficha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>

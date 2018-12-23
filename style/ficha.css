@@ -1,0 +1,107 @@
+body{
+    background-image: url("/img/Background.jpg");
+    background-attachment: scroll;
+    overflow-x: hidden;
+}
+header{
+    background-color: #3b68cf;
+    margin: -8px;
+    border-bottom: solid #3b8bcf 5px;
+}
+nav{
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: aliceblue;
+    position: relative;
+    left: 10px;
+}
+.alink{
+    position: relative;
+    left: 10px;
+    bottom: 27px;
+    padding-bottom: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+.alink:hover {
+    background-color: #3b8bcf;
+    color: aliceblue;
+
+    border-left: solid 2px #363b96;
+    border-top: solid 2px #363b96;
+    border-right: solid 2px #363b96;
+}
+.alink:link{
+    text-decoration: none;
+}
+.alink:visited{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #3b68cf;
+}
+section{
+    background-color: aliceblue;
+    font-family: Calibri;
+    margin-top: 8px;
+    margin-left: 170px;
+    width: 1000px;
+    height: 500px;
+}
+form{
+    margin-left: 350px;
+}
+.formnav{
+    margin-left: 0px;
+}
+div{
+    padding-left: 45px;
+}
+.divnav{
+    padding: 0px 0px 0px 0px;
+    height: 0px;
+}
+footer{
+    font-family: Calibri;
+    color: grey;
+}
+input{
+    position: relative;
+    left: 60px;
+    bottom: 55px;
+
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #3b68cf;
+    border: none;
+}
+input:hover{
+    background-color: #3b8bcf;
+
+    border-left: solid 2px #363b96;
+    border-top: solid 2px #363b96;
+    border-right: solid 2px #363b96;
+
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.p{
+    margin-left: 20px;
+}
+h1{
+    margin-left: 20px;
+}
+hr{
+    margin-left: 45px;
+    margin-right: 45px;
+}
