@@ -29,9 +29,6 @@
             <ul><a href="docs/Relatório%20de%20Avaliação%20Psicológica.docx" download>Relatório de Avaliação Psicológica</a></ul>
         </div>
     </section>
-    <footer>
-        <p>Create by Jhonnata Novaes</p>
-    </footer>
     </body>
 </html>
 <?php

@@ -160,8 +160,5 @@
                         <label><i>Hábitos de estudo:</i> $h_estudo</label>";
     ?>
 </section>
-<footer>
-    <p>Create by Jhonnata Novaes</p>
-</footer>
 </body>
 </html>

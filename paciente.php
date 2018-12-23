@@ -152,7 +152,9 @@
     </div>
 </section>
 <footer>
-    <p>Create by Jhonnata Novaes</p>
+    <p>Criado por: Jhonnata Novaes
+    <br>    
+    Contato: jonnasnovaes@gmail.com</p>
 </footer>
 </body>
 </html>

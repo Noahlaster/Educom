@@ -152,8 +152,5 @@
                 </form>
             </div>
         </section>
-        <footer>
-            <p>Create by Jhonnata Novaes</p>
-        </footer>
     </body>
 </html>

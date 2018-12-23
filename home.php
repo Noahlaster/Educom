@@ -30,8 +30,5 @@
                 <br>
             </form>
         </section>
-        <footer>
-            <p>Create by Jhonnata Novaes</p>
-        </footer>
     </body>
 </html>
