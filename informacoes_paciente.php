@@ -73,6 +73,8 @@
         $alteracao = $_SESSION["alteracao"];
         $personalidade = $_SESSION["personalidade"];
 
+        $prontuario = $_SESSION["prontuario"];
+
         echo "<form name=\"formulario\" method=\"post\" action=\"action_php/action_cadastro.php\">
                 
                     <br>
@@ -160,7 +162,13 @@
                         <br>
                         <label><i>Areas de dificuldade:</i> $dificuldade</label>
                         <br>
-                        <label><i>Hábitos de estudo:</i> $h_estudo</label>";
+                        <label><i>Hábitos de estudo:</i> $h_estudo</label>
+                        <br>
+                        <br>
+                        <br>
+                        <label class=\"titulo\">Prontuário</label>
+                        <hr>
+                        <label>$prontuario</label>";
     ?>
 </section>
 </body>

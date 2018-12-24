@@ -1,12 +1,17 @@
 body{
     background-image: url("/img/Background.jpg");
-    overflow-x: hidden;
+    background-repeat: repeat;
 }
+
 header{
+
     background-color: #3b68cf;
     margin: -8px;
+
     border-bottom: solid #3b8bcf 5px;
+
 }
+
 nav{
 
     font-family: "Segoe UI";
@@ -53,35 +58,51 @@ section {
     margin-top: 8px;
     margin-left: 170px;
     width: 1000px;
-    height: 1800px;
+    height: 2300px;
 }
 
-form{
-    margin-left: 350px;
-}
-.formnav{
-    margin-left: 0px;
-}
-div{
-    padding-top: 200px;
-}
-.divnav{
-    padding: 0px 0px 0px 0px;
-    height: 0px;
-}
 footer{
     font-family: Calibri;
     color: grey;
 }
 
-input{
-    position: relative;
-    left: 500px;
+div{
+    font-family: Calibri;
+}
+.divnav{
+    padding: 0px 0px 0px 0px;
+    height: 0px;
+}
+form{
+    margin-left: 50px;
+}
+.formnav{
+    margin-left: 0px;
+}
+label{
+    display: block;
 
+}
+input,select{
+    height: 20px;
+
+}
+.titulo{
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-left: 0px;
+    width: 100%;
+}
+.botao{
+    margin-left: 360px;
+    height: 25px;
+    width: 120px;
 }
 .input{
     position: relative;
-    left: 410px;
+    left: 360px;
     bottom: 55px;
 
     height: 30px;
@@ -107,27 +128,20 @@ input{
 
     cursor: pointer;
 }
-label{
-    position: relative;
-    left: -290px;
-    font-family: "Segoe UI";
+hr{
+    margin-right: 45px;
+}
+.input2{
+    margin-left: 20px;
 }
 .label{
-    font-family: "Segoe UI";
-    font-weight: bold;
-    margin-right: 80px;
+    padding-left: 220px;
+    display: inline-block;
+    width: 0px;
 }
-.titulo{
-    font-family: Calibri;
-    font-size: 24px;
-    font-weight: bold;
 
-    margin-left: 0px;
-    width: 100%;
-}
-hr{
-    position: relative;
-    right: 300px;
-    width: 900px;
-}
+
+
+
+
 

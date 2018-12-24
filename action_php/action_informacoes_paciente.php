@@ -68,6 +68,8 @@
             $personalidade = $res1[32];
             $profissao = $res1[33];
 
+            $prontuario= $res1[34];
+
         }
 
         $_SESSION['registro'] = $pesquisa;
@@ -107,6 +109,8 @@
         $_SESSION['q_inicial'] = $q_inicial;
         $_SESSION['alteracao'] = $alteracao;
         $_SESSION['personalidade'] = $personalidade;
+
+        $_SESSION['prontuario'] = $prontuario;
 
         header('Location: /informacoes_paciente.php');
 
@@ -166,6 +170,8 @@
             $personalidade = $res1[32];
             $profissao = $res1[33];
 
+            $prontuario = $res1[34];
+
         }
 
         $_SESSION['registro'] = $pesquisa;
@@ -205,6 +211,8 @@
         $_SESSION['q_inicial'] = $q_inicial;
         $_SESSION['alteracao'] = $alteracao;
         $_SESSION['personalidade'] = $personalidade;
+
+        $_SESSION['prontuario'] = $prontuario;
 
         header('Location: /atualiza_cadastro.php');
 

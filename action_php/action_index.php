@@ -2,8 +2,8 @@
     $usuario = $_POST["usuario"];
     $senha = $_POST["senha"];
 
-    $conn = mysqli_connect('127.0.0.1:3308', 'root', '', 'formulario');
-    mysqli_select_db($conn, 'formulario');
+    $conn = mysqli_connect('127.0.0.1:3308', 'root', '', 'educom');
+    mysqli_select_db($conn, 'educom');
 
     $sql1 = "SELECT usuario FROM login;";
     $query1 = mysqli_query($conn, $sql1);

@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="img/icon.png">
     <title>Cadastrar Paciente</title>
-    <link rel="stylesheet" type="text/css" href="style/stylecadastro.css">
+    <link rel="stylesheet" type="text/css" href="style/atualizar.css">
 </head>
 <body>
 <?php
@@ -55,6 +55,8 @@
     $q_inicial = $_SESSION["q_inicial"];
     $alteracao = $_SESSION["alteracao"];
     $personalidade = $_SESSION["personalidade"];
+
+    $prontuario = $_SESSION["prontuario"];
 ?>
 <header>
     <nav>
@@ -188,6 +190,15 @@
             <br>
             <br>
             <label>Hábitos de estudo:</label><input type="text" name="h_estudo" value="<?php echo $h_estudo; ?>" maxlength="100" size="45">
+            <br>
+            <br>
+            <br>
+            <br>
+             <label class="titulo">Prontuário:</label>
+            <hr>
+            <br>
+            <textarea name="prontuario" name="prontuario" rows="18" cols="125" style="resize: none"><?php echo $prontuario ?></textarea>
+            <br>
             <br>
             <br>
             <input class="botao" type="submit" value="Atualizar">

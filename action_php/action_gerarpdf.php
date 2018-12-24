@@ -44,6 +44,7 @@
     $q_inicial = $_SESSION["q_inicial"];
     $alteracao = $_SESSION["alteracao"];
     $personalidade = $_SESSION["personalidade"];
+    $prontuario = $_SESSION["prontuario"];
 
 $html = "<html>
                 <body>
@@ -131,6 +132,12 @@ $html = "<html>
                         <label><i>Areas de dificuldade:</i> $dificuldade</label>
                         <br>
                         <label><i>Hábitos de estudo:</i> $h_estudo</label>
+                        <br>
+                        <br>
+                        <br>
+                        <label class=\"titulo\">Prontuário</label>
+                        <hr>
+                        <label>$prontuario</label>
                      </body>
                  </html>";
 
