@@ -58,9 +58,7 @@ section {
     margin-top: 8px;
     margin-left: 170px;
     width: 1000px;
-    height: 2720px;
-
-
+    height: 1880px;
 }
 
 footer{
@@ -132,6 +130,14 @@ input,select{
 }
 hr{
     margin-right: 45px;
+}
+.input2{
+    margin-left: 20px;
+}
+.label{
+    padding-left: 220px;
+    display: inline-block;
+    width: 0px;
 }
 
 

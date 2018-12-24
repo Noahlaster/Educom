@@ -56,7 +56,7 @@ if($confirmacao != '1'){
     mysqli_error($conn);
     echo "<script>alert('USUÁRIO NÃO ESTÁ LOGADO, EFETUE O LOGIN NOVAMENTE !');javascript:window.location='/index.php';</script>";
 }
-else {
+else if($id != "") {
     $sql = "UPDATE tb_cadastro SET nome='$nome', sexo='$sexo', idade='$idade', cpf='$cpf', telefone='$telefone', celular='$celular', cep='$cep', bairro='$bairro', municipio='$municipio', endereco='$endereco', doenca='$doenca', medicamento='$medicamento', sintoma='$sintoma', acompanhamento='$acompanhamento', h_alimentar='$h_alimentar', familia='$familia', evento='$evento', social='$social', h_lazer='$h_lazer', grupo='$grupo', reprovacao='$reprovacao', dificuldade='$dificuldade', h_estudo='$h_estudo', nasc='$nasc', e_civil='$e_civil', filiacao='$filiacao', escolaridade='$escolaridade', renda='$renda', dependente='$dependente', q_inicial='$q_inicial', alteracao='$alteracao', personalidade='$personalidade', profissao='$profissao' WHERE id='$id'";
     $query = mysqli_query($conn, $sql);
 }
