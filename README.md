@@ -15,9 +15,7 @@ Funcionalidades:
     Linguagens:  HTML5, CSS3, Javascript, PHP.
     Banco de Dados: MySQL.
 
-<h3>Telas</h3>
-<br>
-
+<h3>Telas:</h3>
 <h4>Login</h4>
 
 ![login](https://user-images.githubusercontent.com/34194789/51175538-c24ae400-18a1-11e9-8100-376abb86c0c3.PNG)
